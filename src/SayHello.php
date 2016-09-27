@@ -1,6 +1,6 @@
 <?php
 
-namespace acacha;
+namespace Acacha;
 class SayHello
 {
 

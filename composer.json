@@ -1,5 +1,19 @@
 {
+    "name": "cristianfonolla/composer-hello-world",
+    "description": "Aixo és una descripcio de prova",
+    "authors": [
+        {
+            "name": "cristian",
+            "email": "cristian.fonolla@gmail.com"
+        }
+    ],
     "require": {
         "mfacenet/hello-world": "^1.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Acacha\\" : "src/"
+        }
+
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
-require "vendor/autoload.php";
-require "src/SayHello.php";
+require __DIR__ . "/vendor/autoload.php";
+
 
 echo \HelloWorld\SayHello::world();
 
 
-echo \acacha\SayHello::world();
+echo \Acacha\SayHello::world();
